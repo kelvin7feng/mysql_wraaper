@@ -21,3 +21,4 @@ mysql connector c 编译：
 	1.cd mysql-connector-c-6.1.0-src
 	2.cmake .
 	3.make
+4.CentOS的库路径: /mysql-connector-c-6.1.0-src/libmysql/
