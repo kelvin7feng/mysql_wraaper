@@ -1,0 +1,3 @@
+/opt/dev/mysql_wrapper/build/CMakeFiles/rebuild_cache.dir
+/opt/dev/mysql_wrapper/build/CMakeFiles/edit_cache.dir
+/opt/dev/mysql_wrapper/build/CMakeFiles/main.dir

@@ -1,0 +1,2193 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd134/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd134.dir/build.make CMakeFiles/cmTC_cd134.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd134.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_cd134.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’ [enabled by default]
+/usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_cd134
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd134.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_cd134.dir/CheckFunctionExists.c.o  -o cmTC_cd134 -rdynamic 
+CMakeFiles/cmTC_cd134.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_cd134] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_cd134/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_864a7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_864a7.dir/build.make CMakeFiles/cmTC_864a7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_864a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTC_864a7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_864a7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_864a7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTC_864a7.dir/CheckFunctionExists.c.o  -o cmTC_864a7 -rdynamic 
+CMakeFiles/cmTC_864a7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `crypt'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_864a7] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_864a7/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7a6ee/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7a6ee.dir/build.make CMakeFiles/cmTC_7a6ee.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a6ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_7a6ee.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a6ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a6ee.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTC_7a6ee.dir/CheckFunctionExists.c.o  -o cmTC_7a6ee -rdynamic 
+CMakeFiles/cmTC_7a6ee.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_7a6ee] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_7a6ee/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_dab8c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_dab8c.dir/build.make CMakeFiles/cmTC_dab8c.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dab8c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_dab8c.dir/CheckSymbolExists.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dab8c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dab8c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTC_dab8c.dir/CheckSymbolExists.c.o  -o cmTC_dab8c -rdynamic 
+CMakeFiles/cmTC_dab8c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_dab8c] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_dab8c/fast] Error 2
+
+File /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8745c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8745c.dir/build.make CMakeFiles/cmTC_8745c.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8745c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8745c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8745c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8745c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8745c.dir/CheckFunctionExists.c.o  -o cmTC_8745c -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_8745c] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_8745c/fast] Error 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bf3b4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bf3b4.dir/build.make CMakeFiles/cmTC_bf3b4.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf3b4.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_bf3b4.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: cxxabi.h: No such file or directory
+ #include <cxxabi.h>
+                    ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bf3b4.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_bf3b4/fast] Error 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(void){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9ed9d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9ed9d.dir/build.make CMakeFiles/cmTC_9ed9d.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ed9d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_9ed9d.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: floatingpoint.h: No such file or directory
+ #include <floatingpoint.h>
+                           ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9ed9d.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9ed9d/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f70b2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f70b2.dir/build.make CMakeFiles/cmTC_f70b2.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f70b2.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_f70b2.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f70b2.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f70b2/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_df7d7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_df7d7.dir/build.make CMakeFiles/cmTC_df7d7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df7d7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_df7d7.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_df7d7.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_df7d7/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6096b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6096b.dir/build.make CMakeFiles/cmTC_6096b.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6096b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_6096b.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: port.h: No such file or directory
+ #include <port.h>
+                  ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6096b.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_6096b/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(void){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5acd7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5acd7.dir/build.make CMakeFiles/cmTC_5acd7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5acd7.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_5acd7.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: select.h: No such file or directory
+ #include <select.h>
+                    ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5acd7.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5acd7/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f1e07/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f1e07.dir/build.make CMakeFiles/cmTC_f1e07.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1e07.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_f1e07.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f1e07.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f1e07/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f133b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f133b.dir/build.make CMakeFiles/cmTC_f133b.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f133b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_f133b.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/pte.h: No such file or directory
+ #include <sys/pte.h>
+                     ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f133b.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f133b/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(void){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_83e04/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_83e04.dir/build.make CMakeFiles/cmTC_83e04.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83e04.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_83e04.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: synch.h: No such file or directory
+ #include <synch.h>
+                   ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_83e04.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_83e04/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(void){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d275b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d275b.dir/build.make CMakeFiles/cmTC_d275b.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d275b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_d275b.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: sysent.h: No such file or directory
+ #include <sysent.h>
+                    ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d275b.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d275b/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2e96a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2e96a.dir/build.make CMakeFiles/cmTC_2e96a.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e96a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_2e96a.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/fpu.h: No such file or directory
+ #include <sys/fpu.h>
+                     ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2e96a.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_2e96a/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cee46/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cee46.dir/build.make CMakeFiles/cmTC_cee46.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee46.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_cee46.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/malloc.h: No such file or directory
+ #include <sys/malloc.h>
+                        ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_cee46.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_cee46/fast] Error 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c7ffc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c7ffc.dir/build.make CMakeFiles/cmTC_c7ffc.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7ffc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_c7ffc.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/stream.h: No such file or directory
+ #include <sys/stream.h>
+                        ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c7ffc.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c7ffc/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5a8ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5a8ca.dir/build.make CMakeFiles/cmTC_5a8ca.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a8ca.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_5a8ca.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/termcap.h: No such file or directory
+ #include <sys/termcap.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_5a8ca.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5a8ca/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(void){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_93dd5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_93dd5.dir/build.make CMakeFiles/cmTC_93dd5.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93dd5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_93dd5.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: termbits.h: No such file or directory
+ #include <termbits.h>
+                      ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_93dd5.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_93dd5/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(void){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_be02e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_be02e.dir/build.make CMakeFiles/cmTC_be02e.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be02e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_be02e.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:4:2: error: #error "GCC no longer implements <varargs.h>."
+ #error "GCC no longer implements <varargs.h>."
+  ^
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:5:2: error: #error "Revise your code to use <stdarg.h>."
+ #error "Revise your code to use <stdarg.h>."
+  ^
+gmake[1]: *** [CMakeFiles/cmTC_be02e.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_be02e/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c3283/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c3283.dir/build.make CMakeFiles/cmTC_c3283.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3283.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_c3283.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/utime.h: No such file or directory
+ #include <sys/utime.h>
+                       ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c3283.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c3283/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c1131/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c1131.dir/build.make CMakeFiles/cmTC_c1131.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1131.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_c1131.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/vadvise.h: No such file or directory
+ #include <sys/vadvise.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c1131.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c1131/fast] Error 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(void){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_dd667/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_dd667.dir/build.make CMakeFiles/cmTC_dd667.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd667.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_dd667.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: vis.h: No such file or directory
+ #include <vis.h>
+                 ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_dd667.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_dd667/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(void){return 0;}
+
+Determining if files sasl/sasl.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_94741/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_94741.dir/build.make CMakeFiles/cmTC_94741.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94741.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_94741.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sasl/sasl.h: No such file or directory
+ #include <sasl/sasl.h>
+                       ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_94741.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_94741/fast] Error 2
+
+Source:
+/* */
+#include <sasl/sasl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0f0c5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0f0c5.dir/build.make CMakeFiles/cmTC_0f0c5.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f0c5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_0f0c5.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_0f0c5.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_0f0c5/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_861ef/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_861ef.dir/build.make CMakeFiles/cmTC_861ef.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_861ef.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_861ef.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_861ef.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_861ef/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/event.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b9c55/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b9c55.dir/build.make CMakeFiles/cmTC_b9c55.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9c55.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_b9c55.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+                       ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b9c55.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b9c55/fast] Error 2
+
+Source:
+/* */
+#include <sys/event.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_30d3f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_30d3f.dir/build.make CMakeFiles/cmTC_30d3f.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30d3f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_30d3f.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ptem.h: No such file or directory
+ #include <sys/ptem.h>
+                      ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_30d3f.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_30d3f/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1fe63/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1fe63.dir/build.make CMakeFiles/cmTC_1fe63.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fe63.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTC_1fe63.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1fe63
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fe63.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTC_1fe63.dir/CheckFunctionExists.c.o  -o cmTC_1fe63 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_1fe63.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_1fe63] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1fe63/fast] Error 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_afae7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_afae7.dir/build.make CMakeFiles/cmTC_afae7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afae7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free   -o CMakeFiles/cmTC_afae7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_afae7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afae7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free    CMakeFiles/cmTC_afae7.dir/CheckFunctionExists.c.o  -o cmTC_afae7 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_afae7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_free'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_afae7] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_afae7/fast] Error 2
+
+
+Determining if the function aio_read exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f1ea1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f1ea1.dir/build.make CMakeFiles/cmTC_f1ea1.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1ea1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=aio_read   -o CMakeFiles/cmTC_f1ea1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1ea1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ea1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=aio_read    CMakeFiles/cmTC_f1ea1.dir/CheckFunctionExists.c.o  -o cmTC_f1ea1 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_f1ea1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `aio_read'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_f1ea1] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f1ea1/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_86df5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_86df5.dir/build.make CMakeFiles/cmTC_86df5.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86df5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTC_86df5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86df5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86df5.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTC_86df5.dir/CheckFunctionExists.c.o  -o cmTC_86df5 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_86df5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `printstack'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_86df5] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_86df5/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f4c44/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f4c44.dir/build.make CMakeFiles/cmTC_f4c44.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4c44.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTC_f4c44.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4c44
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c44.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTC_f4c44.dir/CheckFunctionExists.c.o  -o cmTC_f4c44 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_f4c44.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `bmove'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_f4c44] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f4c44/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bc1c1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bc1c1.dir/build.make CMakeFiles/cmTC_bc1c1.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc1c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTC_bc1c1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc1c1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc1c1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTC_bc1c1.dir/CheckFunctionExists.c.o  -o cmTC_bc1c1 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_bc1c1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `directio'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_bc1c1] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_bc1c1/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_88aa7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_88aa7.dir/build.make CMakeFiles/cmTC_88aa7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88aa7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTC_88aa7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88aa7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88aa7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTC_88aa7.dir/CheckFunctionExists.c.o  -o cmTC_88aa7 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_88aa7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_doprnt'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_88aa7] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_88aa7/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9ebd7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9ebd7.dir/build.make CMakeFiles/cmTC_9ebd7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ebd7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTC_9ebd7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ebd7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebd7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTC_9ebd7.dir/CheckFunctionExists.c.o  -o cmTC_9ebd7 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_9ebd7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `compress'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_9ebd7] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9ebd7/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_79069/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_79069.dir/build.make CMakeFiles/cmTC_79069.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79069.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTC_79069.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79069
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79069.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTC_79069.dir/CheckFunctionExists.c.o  -o cmTC_79069 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_79069.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fconvert'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_79069] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_79069/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7ecd6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7ecd6.dir/build.make CMakeFiles/cmTC_7ecd6.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ecd6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTC_7ecd6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ecd6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ecd6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTC_7ecd6.dir/CheckFunctionExists.c.o  -o cmTC_7ecd6 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_7ecd6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fpsetmask'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_7ecd6] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_7ecd6/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5cfcd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5cfcd.dir/build.make CMakeFiles/cmTC_5cfcd.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cfcd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTC_5cfcd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5cfcd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cfcd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTC_5cfcd.dir/CheckFunctionExists.c.o  -o cmTC_5cfcd -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_5cfcd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_5cfcd] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5cfcd/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_13003/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_13003.dir/build.make CMakeFiles/cmTC_13003.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13003.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTC_13003.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_13003
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13003.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTC_13003.dir/CheckFunctionExists.c.o  -o cmTC_13003 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_13003.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getpassphrase'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_13003] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_13003/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_36fd3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_36fd3.dir/build.make CMakeFiles/cmTC_36fd3.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36fd3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTC_36fd3.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36fd3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36fd3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTC_36fd3.dir/CheckFunctionExists.c.o  -o cmTC_36fd3 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_36fd3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_36fd3] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_36fd3/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_34034/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_34034.dir/build.make CMakeFiles/cmTC_34034.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34034.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTC_34034.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34034
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34034.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTC_34034.dir/CheckFunctionExists.c.o  -o cmTC_34034 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_34034.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_34034] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_34034/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_900ad/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_900ad.dir/build.make CMakeFiles/cmTC_900ad.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_900ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTC_900ad.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_900ad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900ad.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTC_900ad.dir/CheckFunctionExists.c.o  -o cmTC_900ad -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_900ad.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_900ad] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_900ad/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3fcd9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3fcd9.dir/build.make CMakeFiles/cmTC_3fcd9.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fcd9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTC_3fcd9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3fcd9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fcd9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTC_3fcd9.dir/CheckFunctionExists.c.o  -o cmTC_3fcd9 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_3fcd9.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_condattr_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_3fcd9] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_3fcd9/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_72750/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_72750.dir/build.make CMakeFiles/cmTC_72750.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72750.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTC_72750.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72750
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72750.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTC_72750.dir/CheckFunctionExists.c.o  -o cmTC_72750 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_72750.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_threadmask'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_72750] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_72750/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_796ff/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_796ff.dir/build.make CMakeFiles/cmTC_796ff.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_796ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTC_796ff.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_796ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796ff.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTC_796ff.dir/CheckFunctionExists.c.o  -o cmTC_796ff -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_796ff.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_yield_np'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_796ff] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_796ff/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_00250/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_00250.dir/build.make CMakeFiles/cmTC_00250.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00250.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTC_00250.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00250
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00250.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTC_00250.dir/CheckFunctionExists.c.o  -o cmTC_00250 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_00250.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rwlock_init'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_00250] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_00250/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_744a7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_744a7.dir/build.make CMakeFiles/cmTC_744a7.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_744a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTC_744a7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_744a7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_744a7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTC_744a7.dir/CheckFunctionExists.c.o  -o cmTC_744a7 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_744a7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setfd'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_744a7] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_744a7/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5b033/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5b033.dir/build.make CMakeFiles/cmTC_5b033.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b033.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTC_5b033.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b033
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b033.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTC_5b033.dir/CheckFunctionExists.c.o  -o cmTC_5b033 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_5b033.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigthreadmask'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_5b033] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5b033/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_45cde/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_45cde.dir/build.make CMakeFiles/cmTC_45cde.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45cde.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_45cde.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45cde
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45cde.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_45cde.dir/CheckFunctionExists.c.o  -o cmTC_45cde -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_45cde.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_45cde] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_45cde/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_76e8d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_76e8d.dir/build.make CMakeFiles/cmTC_76e8d.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76e8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_76e8d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76e8d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76e8d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTC_76e8d.dir/CheckFunctionExists.c.o  -o cmTC_76e8d -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_76e8d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_76e8d] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_76e8d/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a5405/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a5405.dir/build.make CMakeFiles/cmTC_a5405.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5405.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTC_a5405.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5405
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5405.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTC_a5405.dir/CheckFunctionExists.c.o  -o cmTC_a5405 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_a5405.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fgetln'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_a5405] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_a5405/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ae571/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ae571.dir/build.make CMakeFiles/cmTC_ae571.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae571.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTC_ae571.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae571
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae571.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTC_ae571.dir/CheckFunctionExists.c.o  -o cmTC_ae571 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_ae571.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_ae571] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ae571/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b76f0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b76f0.dir/build.make CMakeFiles/cmTC_b76f0.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b76f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTC_b76f0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b76f0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b76f0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTC_b76f0.dir/CheckFunctionExists.c.o  -o cmTC_b76f0 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_b76f0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_setconcurrency'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_b76f0] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b76f0/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5e137/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5e137.dir/build.make CMakeFiles/cmTC_5e137.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e137.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTC_5e137.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e137
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e137.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTC_5e137.dir/CheckFunctionExists.c.o  -o cmTC_5e137 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_5e137.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_yield'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_5e137] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_5e137/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d923c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d923c.dir/build.make CMakeFiles/cmTC_d923c.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d923c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTC_d923c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d923c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d923c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTC_d923c.dir/CheckFunctionExists.c.o  -o cmTC_d923c -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_d923c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `ntohll'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_d923c] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d923c/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_48dae/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48dae.dir/build.make CMakeFiles/cmTC_48dae.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48dae.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_48dae.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48dae
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48dae.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_48dae.dir/CheckFunctionExists.c.o  -o cmTC_48dae -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_48dae.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_48dae] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_48dae/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd996.dir/build.make CMakeFiles/cmTC_cd996.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd996.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_cd996.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd996
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd996.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_cd996.dir/CheckFunctionExists.c.o  -o cmTC_cd996 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_cd996.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_cd996] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_cd996/fast] Error 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ca388/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca388.dir/build.make CMakeFiles/cmTC_ca388.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca388.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_ca388.dir/CheckIncludeFiles.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: ia64intrin.h: No such file or directory
+ #include <ia64intrin.h>
+                        ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ca388.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ca388/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(void){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8055b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8055b.dir/build.make CMakeFiles/cmTC_8055b.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8055b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTC_8055b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8055b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8055b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTC_8055b.dir/CheckFunctionExists.c.o  -o cmTC_8055b -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_8055b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `read_real_time'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_8055b] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_8055b/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_44db4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_44db4.dir/build.make CMakeFiles/cmTC_44db4.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44db4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTC_44db4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44db4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44db4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTC_44db4.dir/CheckFunctionExists.c.o  -o cmTC_44db4 -rdynamic -lm -lcrypt -ldl -lpthread 
+CMakeFiles/cmTC_44db4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rdtscll'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_44db4] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_44db4/fast] Error 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9e6ea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9e6ea.dir/build.make CMakeFiles/cmTC_9e6ea.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e6ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_9e6ea.dir/CheckSymbolExists.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘TIOCSTAT’ undeclared (first use in this function)
+   return ((int*)(&TIOCSTAT))[argc];
+                   ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gmake[1]: *** [CMakeFiles/cmTC_9e6ea.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9e6ea/fast] Error 2
+
+File /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ce423/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ce423.dir/build.make CMakeFiles/cmTC_ce423.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce423.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall    -o CMakeFiles/cmTC_ce423.dir/CheckSymbolExists.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ce423.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ce423/fast] Error 2
+
+File /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of uchar failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c2e88/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c2e88.dir/build.make CMakeFiles/cmTC_c2e88.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2e88.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_c2e88.dir/SIZEOF_UCHAR.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:19:22: error: ‘uchar’ undeclared here (not in a function)
+ #define SIZE (sizeof(uchar))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_c2e88.dir/SIZEOF_UCHAR.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c2e88/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9eb57/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9eb57.dir/build.make CMakeFiles/cmTC_9eb57.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eb57.dir/SIZEOF_INT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_9eb57.dir/SIZEOF_INT8.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:19:22: error: ‘int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(int8))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_9eb57.dir/SIZEOF_INT8.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9eb57/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_56f43/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_56f43.dir/build.make CMakeFiles/cmTC_56f43.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56f43.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_56f43.dir/SIZEOF_UINT8.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:19:22: error: ‘uint8’ undeclared here (not in a function)
+ #define SIZE (sizeof(uint8))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_56f43.dir/SIZEOF_UINT8.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_56f43/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_66ceb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_66ceb.dir/build.make CMakeFiles/cmTC_66ceb.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66ceb.dir/SIZEOF_INT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_66ceb.dir/SIZEOF_INT16.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:19:22: error: ‘int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(int16))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_66ceb.dir/SIZEOF_INT16.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_66ceb/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_caf35/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_caf35.dir/build.make CMakeFiles/cmTC_caf35.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_caf35.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_caf35.dir/SIZEOF_UINT16.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:19:22: error: ‘uint16’ undeclared here (not in a function)
+ #define SIZE (sizeof(uint16))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_caf35.dir/SIZEOF_UINT16.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_caf35/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6d68/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6d68.dir/build.make CMakeFiles/cmTC_e6d68.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6d68.dir/SIZEOF_INT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_e6d68.dir/SIZEOF_INT32.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:19:22: error: ‘int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(int32))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_e6d68.dir/SIZEOF_INT32.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_e6d68/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e7b0d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e7b0d.dir/build.make CMakeFiles/cmTC_e7b0d.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7b0d.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_e7b0d.dir/SIZEOF_UINT32.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:19:22: error: ‘uint32’ undeclared here (not in a function)
+ #define SIZE (sizeof(uint32))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_e7b0d.dir/SIZEOF_UINT32.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_e7b0d/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f162d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f162d.dir/build.make CMakeFiles/cmTC_f162d.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f162d.dir/SIZEOF_INT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_f162d.dir/SIZEOF_INT64.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:19:22: error: ‘int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(int64))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_f162d.dir/SIZEOF_INT64.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_f162d/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3adf6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3adf6.dir/build.make CMakeFiles/cmTC_3adf6.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3adf6.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_3adf6.dir/SIZEOF_UINT64.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:19:22: error: ‘uint64’ undeclared here (not in a function)
+ #define SIZE (sizeof(uint64))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_3adf6.dir/SIZEOF_UINT64.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_3adf6/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d4ebd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d4ebd.dir/build.make CMakeFiles/cmTC_d4ebd.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4ebd.dir/SIZEOF_BOOL.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_d4ebd.dir/SIZEOF_BOOL.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:18:22: error: ‘bool’ undeclared here (not in a function)
+ #define SIZE (sizeof(bool))
+                      ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: *** [CMakeFiles/cmTC_d4ebd.dir/SIZEOF_BOOL.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d4ebd/fast] Error 2
+
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cbcbb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cbcbb.dir/build.make CMakeFiles/cmTC_cbcbb.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbcbb.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -DTIME_T_UNSIGNED   -o CMakeFiles/cmTC_cbcbb.dir/src.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:5:7: error: size of array ‘array’ is negative
+   int array[(((time_t)-1) > 0) ? 1 : -1];
+       ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:5:7: warning: unused variable ‘array’ [-Wunused-variable]
+gmake[1]: *** [CMakeFiles/cmTC_cbcbb.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_cbcbb/fast] Error 2
+
+Source file was:
+
+#include <time.h>
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1e2fa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1e2fa.dir/build.make CMakeFiles/cmTC_1e2fa.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e2fa.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTC_1e2fa.dir/src.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:7:10: error: ‘struct timespec’ has no member named ‘ts_sec’
+   abstime.ts_sec = time(NULL)+1;
+          ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:8:10: error: ‘struct timespec’ has no member named ‘ts_nsec’
+   abstime.ts_nsec = 0;
+          ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:6:19: warning: variable ‘abstime’ set but not used [-Wunused-but-set-variable]
+   struct timespec abstime;
+                   ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gmake[1]: *** [CMakeFiles/cmTC_1e2fa.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1e2fa/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_359a4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_359a4.dir/build.make CMakeFiles/cmTC_359a4.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_359a4.dir/src.cxx.o
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -Wno-unused-parameter -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTC_359a4.dir/src.cxx.o -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.cxx
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.cxx:17:66: error: cannot convert ‘int*’ to ‘hostent**’ for argument ‘7’ to ‘int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)’
+           0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+                                                                  ^
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.cxx:15:24: warning: unused variable ‘foo’ [-Wunused-variable]
+        struct hostent *foo =
+                        ^
+gmake[1]: *** [CMakeFiles/cmTC_359a4.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_359a4/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07c08/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07c08.dir/build.make CMakeFiles/cmTC_07c08.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07c08.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall    -o CMakeFiles/cmTC_07c08.dir/CheckIncludeFile.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+ #include <netinet/in6.h>
+                         ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_07c08.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_07c08/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c8930/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c8930.dir/build.make CMakeFiles/cmTC_c8930.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8930.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTC_c8930.dir/src.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:8:42: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+    (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+                                          ^
+gmake[1]: *** [CMakeFiles/cmTC_c8930.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c8930/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in *)0)->sin_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6c29c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6c29c.dir/build.make CMakeFiles/cmTC_6c29c.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c29c.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTC_6c29c.dir/src.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:8:43: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+                                           ^
+gmake[1]: *** [CMakeFiles/cmTC_6c29c.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_6c29c/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_94471/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_94471.dir/build.make CMakeFiles/cmTC_94471.dir/build
+gmake[1]: Entering directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94471.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -Wall -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTC_94471.dir/src.c.o   -c /opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct dirent’ has no member named ‘d_namlen’
+    (void)sizeof(((struct dirent *)0)->d_namlen);
+                                     ^
+gmake[1]: *** [CMakeFiles/cmTC_94471.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/opt/dev/mysql_wrapper/third_party/mysql-connector-c-6.1.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_94471/fast] Error 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   (void)sizeof(((struct dirent *)0)->d_namlen);
+   return 0;
+}
+
