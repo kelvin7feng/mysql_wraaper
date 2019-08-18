@@ -22,3 +22,14 @@ mysql connector c 编译：
 	2.cmake .
 	3.make
 4.CentOS的库路径: /mysql-connector-c-6.1.0-src/libmysql/
+
+数据库初始化：
+CREATE DATABASE `kg` /*!40100 DEFAULT CHARACTER SET utf8 */;
+use `kg`;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='test';
+ 
+INSERT INTO `kg`.`user` (`id`, `name`) VALUES ('1', 'james');
